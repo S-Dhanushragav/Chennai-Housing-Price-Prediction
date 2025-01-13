@@ -21,3 +21,42 @@ The dataset used in this project contains housing data scraped from metropolitan
 
 ## Project Structure
 The repository contains the following files and directories:
+
+
+---
+
+## Key Steps in the Project
+### 1. Data Cleaning and Preprocessing
+- Handled missing values for both numerical and categorical features.
+- Dropped irrelevant or redundant columns.
+- Encoded categorical variables using Label Encoding.
+
+### 2. Exploratory Data Analysis (EDA)
+- Analyzed data distributions and relationships.
+- Visualized key features using correlation heatmaps and boxplots.
+- Identified and handled outliers for better model performance.
+
+### 3. Feature Engineering
+- Normalized numerical features using `StandardScaler`.
+- Selected important features using Random Forest feature importance analysis.
+
+### 4. Model Development
+- Built a **Random Forest Regressor** for predicting house prices.
+- Evaluated the model using **RMSE**, **MAE**, and **R²** metrics.
+
+### 5. Hyperparameter Tuning
+- Performed Grid Search to find the optimal parameters for the Random Forest model.
+
+### 6. Model Deployment
+- Saved the trained model using `joblib` for future predictions.
+
+---
+
+## Technologies Used
+- **Programming Language**: Python
+- **Libraries**:
+  - Data manipulation: `pandas`, `numpy`
+  - Visualization: `matplotlib`, `seaborn`
+  - Machine learning: `sklearn`
+  - Model persistence: `joblib`
+
